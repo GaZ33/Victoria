@@ -9,7 +9,7 @@ const tempo = setInterval(function time(){
 
   const dataAtual = new Date();
 
-  const dataReferencia = new Date(dataAtual.getFullYear(), 6, 2);
+  const dataReferencia = new Date(dataAtual.getFullYear()+1, 6, 2);
 
 
   const diferenca = dataReferencia - dataAtual;
