@@ -9,7 +9,7 @@ const tempo = setInterval(function time(){
 
   const dataAtual = new Date();
 
-  const dataReferencia = new Date(2023, 9, 24);
+  const dataReferencia = new Date(2023, 6, 2);
 
 
   const diferenca = dataReferencia - dataAtual;
